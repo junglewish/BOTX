@@ -1,0 +1,21 @@
+{
+  "name": "botx",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "6.7.24",
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.4.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "pino": "^10.1.0"
+  }
+}
